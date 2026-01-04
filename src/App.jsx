@@ -1,10 +1,9 @@
-import React from 'react'
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import   AppLayout  from "./components/Layout/AppLayout.jsx"
 import "./App.css"
-import  Home  from './pages/Home.jsx'
+import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import { AppLayout } from "./components/Layout/AppLayout.jsx"
+import { Home } from './pages/Home.jsx'
 import  About  from "./pages/About.jsx"
-import  Contact   from './pages/Contact.jsx'
+import { Contact }  from './pages/Contact'
 import  Country  from './pages/Country.jsx'
 import  ErrorPage  from './pages/ErrorPage.jsx'
 
@@ -37,11 +36,7 @@ const router = createBrowserRouter([
 ])
 
 const App = () => {
-  return (
-    <div>
-      <RouterProvider router = {router} > </RouterProvider>;
-    </div>
-  )
+   return <RouterProvider router = {router} > </RouterProvider>;
 }
 
 export default App;

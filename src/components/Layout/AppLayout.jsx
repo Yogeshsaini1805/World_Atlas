@@ -1,15 +1,14 @@
 import React from 'react'
-import Header from '../UI/Headers.jsx'
+import { Outlet } from 'react-router-dom'
+import { Headers } from '../UI/Headers.jsx'
 import Footer from '../UI/Footer.jsx'
 
-const AppLayout = () => {
+ export const AppLayout = () => {
   return (
     <div>
-        <Header />
-
+        <Headers />
+        <Outlet />
         <Footer />
     </div>
   )
 }
-
-export default AppLayout
