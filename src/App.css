@@ -77,12 +77,13 @@ button {
 /* Layout  */
 
 .container {
-  max-width: 90rem;
+  max-width: 130rem;
   margin: auto;
 }
 
 .grid {
   display: grid;
+  
 }
 
 .grid-two-cols {
