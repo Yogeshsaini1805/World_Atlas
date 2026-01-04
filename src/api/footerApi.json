@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Bhayandar, Maharashtra"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "8000800000"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "yogeshsaini11@gmail.com"
+  }
+]
